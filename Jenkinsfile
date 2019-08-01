@@ -37,7 +37,8 @@ spec:
         }
       }
     }
-    stage('push'){
+    stage('build downstream'){
+      build job: 'simple-go-app'
     }
   }
 }
