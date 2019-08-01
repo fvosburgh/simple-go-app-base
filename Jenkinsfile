@@ -38,7 +38,7 @@ spec:
       }
     }
     stage('build downstream'){
-      build job: 'simple-go-app'
+      build job: 'simple-go-app/master'
     }
   }
 }
